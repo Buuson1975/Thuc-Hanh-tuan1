@@ -1,0 +1,266 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free web tutorials">
+    <meta name="keywords" content="HTML,CSS,JavaScript,XML">
+    <meta name="author" content="Hege Refsnes">
+    <style>
+        .cam {
+            background-color: rgb(236, 163, 79);
+        }
+        
+        .vang {
+            background-color: yellow;
+        }
+        
+        .do {
+            color: red;
+        }
+        
+        .tim {
+            color: rgb(216, 0, 180);
+        }
+        
+        .da {
+            background-color: wheat;
+        }
+        
+        .xanh {
+            background-color: powderblue;
+        }
+        
+        .chuXanh {
+            color: rgb(54, 123, 214)
+        }
+        
+        .den {
+            color: black;
+        }
+        
+        .hong {
+            background-color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>a)</h1>
+    <table border="10" cellspacing="0" cellpadding="20" bordercolor="wheat">
+        <tr>
+            <td>1</td>
+            <td colspan="4">2</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            <td class="cam">4</td>
+            <td class="cam">5</td>
+            <td class="vang" colspan="2" rowspan="2">6</td>
+
+        </tr>
+        <tr>
+            <td class="cam">7</td>
+            <td class="cam">8</td>
+        </tr>
+        <tr>
+            <td class="vang" colspan="2">9</td>
+            <td class="vang">10</td>
+        </tr>
+    </table>
+    <h1>b)</h1>
+    <table border="1" cellspacing="2" cellpadding="10" bgcolor="wheat">
+        <tr>
+            <td>(1)</td>
+            <td>(2)</td>
+            <td>(3)</td>
+            <td colspan="3">(4)</td>
+            <td>(5)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="5"><a class="do" href="">Part I</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">
+                <a class="do" href="">Chapter 1</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section A</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section B</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">
+                <a class="do" href="">Chapter 2</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section A</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section B</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="5">
+                <a class="do" href="">Part II</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">
+                <a class="do" href="">Chapter 3</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section A</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section B</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4">
+                <a class="do" href="">Chapter 4</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section A</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">
+                <a class="do" href="">Section B</a>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <table border="1" cellspacing="2" cellpadding="10">
+        <h4>With cellpadding:</h4>
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+    </table>
+
+    <table border="1" cellspacing="2" cellpadding="10">
+        <h4>Table with spanning row:</h4>
+        <tr>
+            <td>6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td rowspan="2">6.470</td>
+            <td>6.470</td>
+        </tr>
+        <tr>
+            <td>6.470</td>
+        </tr>
+    </table>
+    <h1>c)</h1>
+    <table border="5" cellspacing="1" cellpadding="8" bordercolor="purple">
+        <caption class="tim"><b>NUMBERS 1-5 in VARIOUS LANGUAGES</b></caption>
+        <tr class="hong">
+            <td style="background-color: white;"></td>
+            <td>
+                <a class="den" href=""><b>English</b></a>
+            </td>
+            <td>
+                <a class="den" href=""><b>Español</b></a>
+            </td>
+            <td>
+                <a class="den" href=""><b>Français</b></a>
+            </td>
+            <td>
+                <a class="den" href=""><b>Italiano</b></a>
+            </td>
+            <td>
+                <a class="den" href=""><b>Deutsch</b></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="xanh">1</td>
+            <td class="chuXanh"><b>one</b></td>
+            <td class="chuXanh"><b>uno</b></td>
+            <td class="chuXanh"><b>un</b></td>
+            <td class="chuXanh"><b>uno</b></td>
+            <td class="chuXanh"><b>eins</b></td>
+        </tr>
+        <tr>
+            <td class="xanh">2</td>
+            <td class="chuXanh"><b>two</b></td>
+            <td class="chuXanh"><b>dos</b></td>
+            <td class="chuXanh"><b>deux</b></td>
+            <td class="chuXanh"><b>deu</b></td>
+            <td class="chuXanh"><b>zwei</b></td>
+        </tr>
+        <tr>
+            <td class="xanh">3</td>
+            <td class="chuXanh"><b>three</b></td>
+            <td class="chuXanh"><b>tres</b></td>
+            <td class="chuXanh"><b>trois</b></td>
+            <td class="chuXanh"><b>tre</b></td>
+            <td class="chuXanh"><b>drei</b></td>
+        </tr>
+        <tr>
+            <td class="xanh">4</td>
+            <td class="chuXanh"><b>four</b></td>
+            <td class="chuXanh"><b>cuatro</b></td>
+            <td class="chuXanh"><b>quatre</b></td>
+            <td class="chuXanh"><b>quattro</b></td>
+            <td class="chuXanh"><b>vier</b></td>
+        </tr>
+        <tr>
+            <td class="xanh">5</td>
+            <td class="chuXanh"><b>five</b></td>
+            <td class="chuXanh"><b>cinco</b></td>
+            <td class="chuXanh"><b>cinq</b></td>
+            <td class="chuXanh"><b>cinque</b></td>
+            <td class="chuXanh"><b>fünf</b></td>
+        </tr>
+    </table>
+</body>
+
+</html>
